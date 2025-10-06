@@ -1,0 +1,59 @@
+10-problem OOP set that collectively hits core concepts
+
+abstraction
+encapsulation
+interfaces
+inheritance/polymorphism
+composition/aggregation
+iterators
+stateful class design
+invariants
+design patterns
+scalability.
+
+
+🟢 Easy (5)
+
+Design Parking System (#1603) — class design, constructors, encapsulation, invariants
+
+Implement Queue using Stacks (#232) — abstraction vs implementation, composition, API fidelity
+
+Logger Rate Limiter (#359) — stateful object, time-window logic, encapsulation
+
+Peeking Iterator (#284) — interfaces, decorator pattern, polymorphic iterator contract
+
+Design Underground System (#1396) — multi-class aggregation, lifecycle state, clean APIs
+
+🟡 Medium (3)
+
+LRU Cache (#146) — composition (hash map + DLL), invariants, encapsulation, API guarantees
+
+Design Browser History (#1472) — object lifecycle, custom DLL, command-like methods, encapsulation
+
+Flatten Nested List Iterator (#341) — interfaces, lazy vs eager iteration, polymorphism, recursion
+
+🔴 Hard (2)
+
+LFU Cache (#460) — multi-structure composition (freq buckets + lists + map), strict invariants, scalability
+
+Design In-Memory File System (#588) — composite pattern (File/Directory), path parsing, hierarchy, permissions-ready design
+
+
+
+Coverage Checklist (what you’ll practice)
+
+Abstraction & Encapsulation: 1, 2, 3, 6, 7, 9
+
+Interfaces / Polymorphism: 4, 8
+
+Composition / Aggregation: 2, 6, 7, 9, 10
+
+Iterators (OO style): 4, 8
+
+Stateful Classes & Invariants: 1, 3, 6, 7, 9
+
+Composite / Hierarchy Modeling: 10
+
+Scalability & Performance-aware OO Design: 6, 9, 10
+
+Testability & API Contracts: all of them (especially 2, 6, 7)
